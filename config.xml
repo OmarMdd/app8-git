@@ -17,8 +17,6 @@
  
  <!-- Personaliza la aplicacion y plataforma -->
  <preference name="orientation" value="default"/>
- <!-- <preference name="orientation"  value="portrait"/>
- <preference name="orientation"  value="landscape/>-->
  <preference name="target-device" value="universal"/>
  <preference name="fullscreen" value="true"/>
  <preference name="android-installLocation" value="auto"/>
@@ -29,7 +27,7 @@
  <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
  <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
  
- <plugin name="cordova-plugin-geolocation" spec="2.4.3"
+ <plugin name="cordova-plugin-geolocation" spec="2.4.3"?/>
  <!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
  <!--Para accesar a paginas en internet-->
  <allow-intent href="https://*/*"/>
